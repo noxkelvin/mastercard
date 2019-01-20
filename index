@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-1">&nbsp;</div>
+        <div class="col-md-5">
+            <div style="background:#15304E; border:2px solid #000000; border-radius:15px; height:230px; margin:15px;">
+                <br>
+                <center>
+                    <img src="https://www.cardgenerators.com/wp-content/uploads/2018/10/master.png" class="img-responsive">
+                    <div id="myBar" style="background:#9A9292; height:5px; margin-top:5px;">.</div>
+                    <b><div id="displaycode" style="color:#F8F7F7; letter-spacing:1px; margin-top:10px;">XXXX XXXX XXXX XXXX</div></b>
+                    <b><div id="displaydate" style="color:#F8F7F7; margin-top:10px">Valid Taru:XX/XXXX</div></b>
+                    <b><div id="displayname" style="color:#F8F7F7; margin-top:10px">XXXXXX X. XXXXXXXX</div></b>
+                    <b> <div id="displaycvv" style="color:#F8F7F7; margin-top:10px">CVV: XXX </div></b>
+                </center>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div style=" background:#E9E8E8; border:2px solid #000000; border-radius:7px; height:230px; margin:15px;">
+                <br>
+                <table align="center">
+                    <tbody>
+                        <tr>
+                            <th><font face="Baskerville Old Face">Issuing network</font></th>
+                            <th>:</th>
+                            <td id="displaynetwork" style="margin-left:15px; font-family:Arial;">Master Card</td>
+                        </tr>
+                        <tr>
+                            <th><font face="Baskerville Old Face">Card No</font></th>
+                            <th>:</th>
+                            <td id="displaycode1" style="margin-left:15px; font-family:Arial;">...........................</td>
+                        </tr>
+                        <tr>
+                            <th><font face="Baskerville Old Face">Name</font></th>
+                            <th>:</th>
+                            <td id="displayname1" style="margin-left:15px; font-family:Arial;">........................... </td>
+                        </tr>
+                        <tr>
+                            <th><font face="Baskerville Old Face">Adress</font></th>
+                            <th>:</th>
+                            <td id="displayaddress1" style="margin-left:15px; font-family:Arial;"> ........................... </td>
+                        </tr>
+                        <tr>
+                            <th><font face="Baskerville Old Face">Country</font></th>
+                            <th>:</th>
+                            <td id="displaycountry1" style="margin-left:15px; font-family:Arial;">........................... </td>
+                        </tr>
+                        <tr>
+                            <th><font face="Baskerville Old Face">Expirary</font></th>
+                            <th>:</th>
+                            <td id="displaydate1" style="margin-left:15px; font-family:Arial;"> ...........................</td>
+                        </tr>
+                        <tr>
+                            <th> <font face="Baskerville Old Face">CVV</font></th>
+                            <th>:</th>
+                            <td id="displaycvv1" style="margin-left:15px; font-family:Arial;"> ........................... </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-1">&nbsp</div>
+    </div>
+</div>
+<div class="row">
+    <center>
+        <button id="button" class="mybuttoncc" onClick="cardgen('mastercard');"><b>Generate Now</b></button>
+    </center>
+</div>
+</div>
